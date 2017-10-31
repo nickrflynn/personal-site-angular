@@ -1,6 +1,15 @@
-html, body {
+@import 'variables';
+
+html {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
+    background-color: $background-white;
+}
+
+body {
+    margin: 1%;
+    height: 96%;
+    width: 98%;
 }
