@@ -2,4 +2,9 @@
     height: 100%;
     width: 100%;
     background-color: #f2af35;
+
+    .carousel-inner,.carousel,.item,.container,.fill {
+        height:100%;
+        width:100%;
+      }
 }
