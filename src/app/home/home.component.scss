@@ -1,0 +1,28 @@
+@import '../../variables';
+
+section {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+h1 {
+    color: $red;
+}
+
+h2 {
+    color: $white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    
+    li {
+        float: left;
+    }
+}
+
+.cover {
+    background-color: $blue-light;
+}
