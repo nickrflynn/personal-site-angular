@@ -4,25 +4,80 @@ section {
     height: 100%;
     width: 50%;
     float: left;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
-h1 {
+p {
+    font-weight: 300;
+}
+
+h3 {
     color: $red;
-}
-
-h2 {
-    color: $white;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    
-    li {
-        float: left;
-    }
 }
 
 .cover {
     background-color: $blue-light;
+    position: relative;
+
+    #profile {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        top: 0;
+        height: 100%;
+    }
+    
+    #slant {
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 2000px solid white;
+        border-left: 200px solid transparent;
+    }
+
+    #title {
+        position: absolute;
+        z-index: 2;
+        left: 40px;
+        bottom: 40px;
+        width: 80%;
+        
+        h1 {
+            color: $red;
+            font-size: 5rem;
+        }
+        
+        h2 {
+            color: $white;
+            font-weight: 300;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+            
+            li {
+                float: left;
+                padding-right: 20px;
+                font-size: 3rem;
+                
+                a {
+                    color: white;
+
+                    &:hover {
+                        color: rgb(196, 193, 193);
+                    }
+                }
+            }
+        }
+
+        nav {
+            padding-top: 30px;
+        }
+    }
 }
