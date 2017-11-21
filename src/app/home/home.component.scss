@@ -14,6 +14,7 @@ p {
 
 h3 {
     color: $red;
+
 }
 
 .cover {
@@ -79,5 +80,11 @@ h3 {
         nav {
             padding-top: 30px;
         }
+    }
+}
+
+.content {
+    p {
+        font-size: 1.5rem;
     }
 }
